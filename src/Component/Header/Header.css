@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .header {
-    top: 75px;
+    top: 70px;
     min-height: calc(100vh - 70px);
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
   .header {
-    top: 90px;
+    top: 70px;
     min-height: calc(100vh - 70px);
   }
 }
@@ -99,31 +99,31 @@
 
 @media screen and (max-width: 600px) {
   .header-title {
-    font-size: 2.2rem;
-    line-height: 3rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
     margin-bottom: 0px;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .header-title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .header-title {
-    font-size: 4.8rem;
-    line-height: 5.5rem;
+    font-size: 3.1rem;
+    line-height: 4.5rem;
     margin-bottom: 12px;
   }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
   .header-title {
-    font-size: 5rem;
-    line-height: 5.5rem;
+    font-size: 3.8rem;
+    line-height: 4.5rem;
     margin-bottom: 13px;
   }
 }
@@ -138,29 +138,29 @@
 
 @media screen and (max-width: 600px) {
   .header-sub-title {
-    font-size: 1.7rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     margin-bottom: 2rem;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .header-sub-title {
-    font-size: 3.7rem;
-    line-height: 3.7rem;
+    font-size: 2.7rem;
+    line-height: 3.2rem;
   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .header-sub-title {
-    font-size: 4.5rem;
-    line-height: 4.5rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
   }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
   .header-sub-title {
-    font-size: 4.3rem;
+    font-size: 3.7rem;
     line-height: 4.5rem;
   }
 }
@@ -184,7 +184,7 @@
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .header p {
     padding: 0 15px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     text-align: justify;
   }
@@ -193,7 +193,7 @@
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .header p {
     padding: 0 20px;
-    font-size: 1.23rem;
+    font-size: 1.15rem;
     line-height: 2rem;
   }
 }
@@ -201,7 +201,7 @@
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
   .header p {
     padding: 0 20px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     
   }
@@ -264,28 +264,28 @@
 @media screen and (max-width: 600px) {
   .header-order-btn {
     margin: 10px;
-    font-size: 1.1rem; 
+    font-size: 1rem; 
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .header-order-btn {
     margin: 15px;
-    font-size: 1.2rem; 
+    font-size: 1.1rem; 
   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .header-order-btn {
     margin: 15px;
-    font-size: 1.24rem; 
+    font-size: 1.15rem; 
   }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
   .header-order-btn {
     margin: 15px;
-    font-size: 1.3rem; 
+    font-size: 1.2rem; 
   }
 }
 

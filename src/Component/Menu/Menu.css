@@ -62,28 +62,28 @@
 
 @media screen and (max-width: 600px){
     .menu-items-title {
-        font-size: 2.2rem;
+        font-size: 1.6rem;
         line-height: 3rem;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .menu-items-title {
-        font-size: 3.5rem;
+        font-size: 2.2rem;
         line-height: 4rem;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .menu-items-title {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         line-height: 4rem;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .menu-items-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 4rem;
     }
 }
@@ -102,19 +102,19 @@
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .menu-items-sub-title {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .menu-items-sub-title {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .menu-items-sub-title {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -181,35 +181,46 @@
 
 @media screen and (max-width: 600px) {
     .menu-links .a {
-        padding: 12px;
+        padding: 10px;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .menu-links .a {
-        padding: 12px;
+        padding: 10px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .menu-links .a {
-        padding: 12px 20px;
+        padding: 10px 20px;
     }
 }
 
 .menu-links .a h3 {
    font-size: 1.2rem;
 }
+@media screen and (max-width: 600px) {
+    .menu-links .a h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .menu-links .a h3 {
+        font-size: 1.1rem;
+    }
+}
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .menu-links .a h3 {
-        font-size: 1.3rem;
+        font-size: 1.15rem;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .menu-links .a h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -218,15 +229,33 @@
     font-size: .8rem;
 }
 
+@media screen and (max-width: 600px) {
+    .menu-links .a span {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .menu-links .a span {
+        font-size: .75rem;
+    }
+}
+
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .menu-links .a span {
-        font-size: .9rem;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-links .a span {
+        font-size: .85rem;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .menu-links .a span {
-        font-size: .9rem;
+        font-size: .85rem;
     }
 }
 

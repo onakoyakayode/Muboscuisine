@@ -49,28 +49,28 @@
 
 @media screen and (max-width: 600px) {
     .special-food h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 3rem;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .special-food h1 {
-        font-size: 3.5rem;
+        font-size: 1.7rem;
         line-height: 4.5rem;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .special-food h1 {
-        font-size: 3.5rem;
+        font-size: 2rem;
         line-height: 4.5rem;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .special-food h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         line-height: 4.5rem;
     }
 }
@@ -89,19 +89,19 @@
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .special-food p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .special-food p {
-        font-size: 1.3rem;
+        font-size: 1.15rem;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .special-food p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -144,7 +144,7 @@
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .food-special {
-        min-width: 400px;
+        min-width: 300px;
         height: 400px;
         text-align: center;
         position: relative;
@@ -159,7 +159,7 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .food-special {
-        min-width: 27vw;
+        min-width: 350px;
         height: 400px;
     }
 }
@@ -175,10 +175,30 @@
 
 @media screen and (max-width: 600px) {
     .food-image {
-        max-width: 600px;
+        max-width: 300px;
         width: 100%;
+    } 
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .food-image {
+        width: 350px;
+        height: 350px;
     }
-    
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .food-image {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .food-image {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 .food-image-img {
@@ -195,6 +215,7 @@
 }
 
 .food-special .food-name {
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -203,14 +224,33 @@
     background: transparent;
     transition: all 0.3s ease;
     overflow: hidden;
-    padding: 20px;
+    padding: 15px;
     background: #282b2e;
 }
 
 @media screen and (max-width: 600px) {
     .food-special .food-name {
         height: auto;
-        width: 100%;   
+        width: 100%; 
+        font-size: 1rem;  
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px)  {
+    .food-special .food-name { 
+        font-size: 1.05rem;  
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .food-special .food-name { 
+        font-size: 1.1rem;  
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .food-special .food-name { 
+        font-size: 1.15rem;  
     }
 }
 
@@ -240,14 +280,14 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .food-price h5{
-        font-size: 1.23rem;
+        font-size: 1.2rem;
     }
     
 }
 
 .food-price .food-tag{
     display: inline-block;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
     margin-right: 5px;
 }

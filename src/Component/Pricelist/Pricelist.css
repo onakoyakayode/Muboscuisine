@@ -104,7 +104,7 @@
     .service-charge {
         margin-block: 10px;
         gap: auto;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
@@ -112,7 +112,7 @@
     .service-charge {
         margin-block: 10px;
         gap: auto;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -120,7 +120,7 @@
     .service-charge {
         margin-block: 12px;
         gap: auto;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 

@@ -61,6 +61,22 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 600px) {
+    .all-items-image {
+        width: 100%;
+        height: 234px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .all-items-image {
+        width: 100%;
+        height: 254px;
+        overflow: hidden;
+    }
+}
+
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .all-items-image {
         width: 100%;
@@ -94,7 +110,7 @@
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .all-items-title {
         margin-block: 20px 10px;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -109,7 +125,7 @@
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .all-items-details p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
@@ -127,5 +143,5 @@
 
 .all-items-details h4 span {
     color: tomato;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
