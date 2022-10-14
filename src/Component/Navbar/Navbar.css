@@ -119,14 +119,14 @@
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .navbar {
-        height: 80px;
+        height: 70px;
         padding: 25px 20px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .navbar {
-        height: 90px;
+        height: 70px;
         padding: 30px 40px;
     }
 }
