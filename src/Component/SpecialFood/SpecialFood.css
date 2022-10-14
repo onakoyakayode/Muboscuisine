@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 600px){
     .food-special {
-        min-width: 100%;
+        min-width: 300px;
         width: 100%;
         height: 300px;
     }
@@ -175,7 +175,7 @@
 
 @media screen and (max-width: 600px) {
     .food-image {
-        max-width: 300px;
+        width: 300px;
         width: 100%;
     } 
 }

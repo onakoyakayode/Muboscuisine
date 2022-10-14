@@ -179,7 +179,6 @@
     margin-bottom: 1rem;
 }
 
-
 .phone a,
 .mail a {
     text-decoration: none;
@@ -226,6 +225,10 @@
 
 .service {
     width: 25%;
+}
+
+.footer ul {
+    padding-left: 0;
 }
 
 @media screen and (max-width: 600px) {
