@@ -1,0 +1,210 @@
+.the-list {
+    margin-top: 20px;
+    padding: 20px 100px;
+    border-top: 2px dashed #999;
+}
+
+@media  screen and (max-width: 600px) {
+    .the-list {
+        margin-top: 15px;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .the-list {
+        margin-top: 20px;
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .the-list {
+        margin-top: 20px;
+        padding: 20px 25px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .the-list {
+        margin-top: 20px;
+        padding: 20px 150px;
+    }
+}
+
+.the-list h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+@media  screen and (max-width: 600px)  {
+    .the-list h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .the-list h2 {
+        font-size: 1.9rem;
+    }    
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .the-list h2 {
+        font-size: 2.1rem;
+    }  
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .the-list h2 {
+        font-size: 2.4rem;
+    } 
+}
+
+.the-list-food {
+    margin: 20px 0;
+    width: auto;
+}
+
+.the-service {
+    width: auto;
+}
+
+.the-list-food li {
+    font-size: 1.1rem;
+    margin-block: 10px;
+}
+
+@media  screen and (max-width: 600px) {
+    .the-list-food li {
+        font-size: 1rem;
+        margin-block: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .the-list-food li {
+        font-size: 1.2rem;
+        margin-block: 12px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .the-list-food li {
+        font-size: 1.2rem;
+        margin-block: 12px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .the-list-food li {
+        font-size: 1.25rem;
+        margin-block: 15px;
+    }
+}
+
+.the-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+@media  screen and (max-width: 600px) {
+    .the-list-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .the-list-item {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .the-list-item {
+        display: flex;
+    }
+}
+
+
+/* .breakfast {
+    /* align-items: flex-start; */
+/* } */ */
+
+.continental {
+    align-self: flex-start;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.price-per-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@media  screen and (max-width: 600px) {
+    .price-per-head {
+        gap: auto;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .price-per-head {
+        gap: auto;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .price-per-head {
+        gap: auto;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .price-per-head {
+        gap: auto;
+    }
+}
+
+.price-per-head h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-block: 10px;
+}
+
+@media  screen and (max-width: 600px){
+    .price-per-head h5 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .price-per-head h5 {
+        font-size: 1.15rem;
+        margin-block: 12px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .price-per-head h5 {
+        font-size: 1.2rem;
+        margin-block: 12px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .price-per-head h5 {
+        font-size: 1.2rem;
+        margin-block: 12px;
+    }
+}

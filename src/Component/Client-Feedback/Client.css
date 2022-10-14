@@ -1,0 +1,200 @@
+.client {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 100px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.99)), url("https://media.istockphoto.com/photos/cuisine-culinary-buffet-dinner-catering-dining-food-celebration-picture-id637765812?b=1&k=20&m=637765812&s=170667a&w=0&h=DSY3K6N_QXp6FU0Ft5yz7ls4YsavjESMYvtVGCJxD5k=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .client {
+        padding: 50px 10px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .client {
+        padding: 70px 15px;
+        min-height: 20vh;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .client {
+        padding: 80px 20px;
+        min-height: 40vh;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .client {
+        padding: 80px 20px;
+        min-height: 40vh;
+    }
+}
+
+.client-title {
+    text-align: center;
+}
+
+.client-title h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .client-title h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .client-title h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .client-title h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .client-title h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+.carousel {
+    margin-top: 50px;
+    width: inherit;
+    height: 50vh;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .carousel {
+        margin-top: 60px;
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .carousel {
+        margin-top: 60px;
+        min-height: 35vh;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .carousel {
+        margin-top: 60px;
+        min-height: 35vh;
+    }
+}
+
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.carousel-item h4 {
+    color: #f6c600;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.carousel-item h5 {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .carousel-item h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .carousel-item h4 {
+        font-size: 1.35rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .carousel-item h4 {
+        font-size: 1.4rem;
+    }
+    
+    .carousel-item h5 {
+        font-size: 1.3rem;
+    }
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px){
+    .carousel-item p {
+        font-size: .9rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .carousel-item p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .carousel-item p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+.swiper-img {
+    width: 120px;
+    height: 120px;
+    margin-block: 20px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .swiper-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .swiper-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.swiper-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+

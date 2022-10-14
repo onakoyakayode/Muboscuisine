@@ -1,0 +1,131 @@
+.all-items-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem 0;
+    padding-bottom: 30px;
+}
+
+
+.all-items-food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .all-items-food {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+
+.all-items-details {
+    width: 320px;
+    margin-inline: auto;
+    overflow: hidden;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-block: 10px;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .all-items-details {
+        width: 400px;
+        padding-bottom: 15px;
+    }
+}
+ 
+
+.all-items-details:hover {
+    box-shadow: 1px 5px 20px #2222;
+}
+
+.all-items-image {
+    width: 100%;
+    height: 284px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .all-items-image {
+        width: 100%;
+        height: 304px;
+        overflow: hidden;
+    }
+}
+
+.all-items-img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    transition: .6s ease;
+}
+
+.all-items-img:hover {
+    transform: scale(1.5);
+    overflow: hidden;
+}
+
+
+.all-items-title {
+    margin-block: 20px 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding-inline: 5px;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .all-items-title {
+        margin-block: 20px 10px;
+        font-size: 1.8rem;
+    }
+}
+
+.all-items-details p {
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 10px;
+    max-height: 100px;
+    text-overflow: ellipsis;
+    padding-inline: 5px;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .all-items-details p {
+        font-size: 1.1rem;
+    }
+}
+
+.all-items-details h4 {
+    align-self: flex-end;
+    font-size: .9rem;
+    padding-inline: 5px;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .all-items-details h4 {
+        font-size: 1rem;
+    }
+}
+
+.all-items-details h4 span {
+    color: tomato;
+    font-size: 2rem;
+}

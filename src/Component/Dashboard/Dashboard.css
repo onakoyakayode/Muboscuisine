@@ -1,0 +1,8 @@
+.dashboard-children {
+    min-height: max-content;
+    margin: 0 10px;
+}
+
+.dashboard {
+    padding-bottom: 50px;
+}

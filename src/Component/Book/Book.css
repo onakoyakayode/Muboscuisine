@@ -1,0 +1,370 @@
+.book {
+    padding: 70px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0, 0, 0.175), rgba(255, 255, 255, 0.259)), url("https://media.istockphoto.com/photos/calendar-on-solid-blue-background-with-copy-space-business-meeting-picture-id1300657889?b=1&k=20&m=1300657889&s=170667a&w=0&h=zXUoBot8i_5K-LaHulWMGgxEzu00IiU9ygEufErSJsg=");
+    background-repeat: no-repeat;
+    background-size: auto auto, cover;
+    background-position: center;    
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    .book {
+        padding: 70px 10px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book {
+        min-height: 60vh;
+        padding: 90px 15px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book {
+        padding: 70px 25px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book {
+        padding: 70px 150px;
+    }
+}
+
+.book-title {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .book-title {
+        margin-bottom: 20px;
+    }
+}
+
+
+.book-title h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .book-title h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-title h2 {
+        font-size: 2.7rem;
+        line-height: 3.4rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-title h2 {
+        font-size: 2.7rem;
+        line-height: 3.4rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-title h2 {
+        font-size: 2.7rem;
+        line-height: 3.4rem;
+    }
+}
+
+.book-title p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .book-title p {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-title p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-title p {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-title p {
+        font-size: 1.2rem;
+    }
+}
+
+
+.book-warning {
+    margin-bottom: 30px;
+    font-weight: lighter;
+    animation-name: blink;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@media screen and (max-width: 600px) {
+    .book-warning {
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-warning {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-warning {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-warning {
+        font-size: 1.2rem;
+    }
+}
+
+@keyframes blink {
+    0% { 
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .book-form {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-form {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-form {
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-form {
+        gap: 30px;
+    }
+}
+
+.book-form input,
+.book-form select {
+    width: 100%;
+    border: none;
+    padding: 20px 10px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-form input,
+    .book-form select {
+       padding: 25px 10px; 
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-form input,
+    .book-form select {
+       padding: 25px 10px; 
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-form input,
+    .book-form select {
+       padding: 25px 10px; 
+    }
+}
+
+input::placeholder,
+select {
+    color: #555;
+    font-size: 15px;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    input::placeholder,
+    select {
+        color: #555;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    input::placeholder,
+    select {
+        color: #555;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    input::placeholder,
+    select {
+        color: #555;
+        font-size: 1.1rem;
+    }
+}
+
+.book-form input:focus,
+.book-form select:focus {
+    outline: 1px solid #f6c600;
+}
+
+.booking-details-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .booking-details-name {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .booking-details-name {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .booking-details-name {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .booking-details-name {
+        gap: 20px;
+    }
+}
+
+.book-btn {
+    width: max-content;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px){
+    .book-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-btn {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-btn {
+        width: 40%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-btn {
+        width: 90%;
+        margin-top: 2.5rem;
+    }
+}
+
+.book-btn button {
+    padding: 15px 45px;
+    border: none;
+    background: #000;
+    color: #f6c600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .book-btn button {
+        width: 100%;
+        padding: 15px 45px;
+        border: none;
+        background: #000;
+        color: #f6c600;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .book-btn button {
+        width: 100%;
+        padding: 25px 50px;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .book-btn button {
+        width: 100%;
+        padding: 25px 50px;
+        font-size: 1.3rem;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .book-btn button {
+        width: 30%;
+        padding: 25px 50px;
+        font-size: 1.4rem;
+        border-radius: 10px;
+        margin-inline-start: 35%;
+    }
+}

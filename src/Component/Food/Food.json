@@ -1,0 +1,26 @@
+[
+    {
+        "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "title": "Salad with Vegetables",
+        "content": "Yummy Yummy with all the varieties of food to deal with",
+        "price": "50"
+    },
+    {
+        "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "title": "Salad with Vegetables",
+        "content": "Yummy Yummy with all the varieties of food to deal with",
+        "price": "50"
+    },
+    {
+        "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "title": "Salad with Vegetables",
+        "content": "Yummy Yummy with all the varieties of food to deal with",
+        "price": "50"
+    },
+    {
+        "image": "",
+        "title": "Salad with Vegetables",
+        "content": "Yummy Yummy with all the varieties of food to deal with",
+        "price": "50"
+    }
+]

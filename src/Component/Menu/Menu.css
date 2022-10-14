@@ -1,0 +1,239 @@
+.menu {
+    padding: 70px 0 0 0 ;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu {
+        padding: 70px 5px 0 5px ;
+        margin-bottom: 30px; 
+    }
+    .menu-items {
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .menu {
+        padding: 70px 10px 0 10px;
+        margin-bottom: 30px; 
+        margin-top: 50px;
+    }
+    .menu-items {
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu {
+        padding: 70px 12.5px 0 12.5px;
+        margin-bottom: 30px; 
+        margin-top: 60px;
+    }
+    .menu-items {
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu {
+        padding: 70px 12.5px 0 12.5px;
+        margin-bottom: 30px; 
+        margin-top: 60px;
+    }
+    .menu-items {
+        margin-bottom: 70px;
+    }
+}
+
+
+.menu-items-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px){
+    .menu-items-title {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .menu-items-title {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-items-title {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu-items-title {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+.menu-items-sub-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-items-sub-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .menu-items-sub-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-items-sub-title {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu-items-sub-title {
+        font-size: 1.25rem;
+    }
+}
+
+
+.menu-links {
+    max-width: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-inline: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-links {
+        max-width: 600px;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .menu-links {
+        max-width: 700px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-links {
+        max-width: 900px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu-links {
+        max-width: 1200px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        gap: 1.5rem;
+    }
+}
+
+.menu-links a {
+    text-decoration: none;
+}
+
+.menu-links .a {
+    width: max-content;
+    padding: 10px;
+    text-align: center;
+    background: #dadada;
+    border: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    color: #000;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-links .a {
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-links .a {
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu-links .a {
+        padding: 12px 20px;
+    }
+}
+
+.menu-links .a h3 {
+   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-links .a h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu-links .a h3 {
+        font-size: 1.3rem;
+    }
+}
+
+.menu-links .a span {
+    opacity: .7;
+    font-size: .8rem;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .menu-links .a span {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+    .menu-links .a span {
+        font-size: .9rem;
+    }
+}
+
+
+.menu-links .a:hover,
+.menu-links .a:focus,
+.menu-links .a.active{
+    background-color: #000;
+    color: #f6c600;
+}
