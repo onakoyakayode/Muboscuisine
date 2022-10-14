@@ -8,7 +8,7 @@ const Video = () => {
         <h1>Watch Our Video!</h1>
         <ReactPlayer 
             width='100%'
-            height='100vh'
+            height='50vh'
             autoPlay={true}
             url='https://www.youtube.com/watch?v=ysz5S6PUM-U' 
         />
