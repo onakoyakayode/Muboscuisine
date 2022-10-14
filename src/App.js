@@ -12,8 +12,7 @@ import Client from './Component/Client-Feedback/Client';
 import Video from './Component/Video/Video';
 import Footer from './Component/Footer/Footer';
 import Navbar from './Component/Navbar/Navbar';
-// import Allitems from './Component/AllItems/Allitems';
-// import Intercontinental from './Component/Intercontinental/Intercontinental';
+
 import Soups from './Component/Soups/Soups';
 import LocalDish from './Component/Local Dish/LocalDish';
 import Chops from './Component/Chops/Chops';
@@ -23,11 +22,8 @@ import Header from './Component/Header/Header';
 import Pricelist from './Component/Pricelist/Pricelist';
 import Hampton from './Component/Hampton/Hampton';
 import FullNigerianStandard from './Component/FullNigerian/FullNigerianStandard';
-import FullNigerianExecutive from './Component/FullNigerian/FullNigerianExecutive';
 import Eko from './Component/Eko/Eko';
 import NigeriaChinese1 from './Component/NigeriaChinese/NigeriaChinese1';
-import NigeriaChinese2 from './Component/NigeriaChinese/NigeriaChinese2';
-import NigeriaChinese3 from './Component/NigeriaChinese/NigeriaChinese3';
 import ExecutiveBuffet from './Component/ExecutiveBuffet/ExecutiveBuffet';
 import Continental from './Component/Continental/Continental';
 import ChineseStandard from './Component/Chinese/ChineseStandard';
@@ -39,7 +35,7 @@ import Dessert from './Component/Dessert/Dessert';
 import Kiddies from './Component/Kiddies/Kiddies';
 import Breakfast from './Component/Breakfast/Breakfast';
 import FingerFood from './Component/FingerFood/FingerFood';
-// import Dashboard from './Component/Dashboard/Dashboard';
+
 
 
 
