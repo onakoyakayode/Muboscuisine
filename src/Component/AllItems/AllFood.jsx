@@ -1,4 +1,4 @@
-export default [
+const Food = [
     {
         image: "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?size=626&ext=jpg&uid=R21425444&ga=GA1.2.1483839923.1664359848",
         title: "Smoky Jollof Rice",
@@ -73,3 +73,5 @@ export default [
     },
     
 ]
+
+export default Food

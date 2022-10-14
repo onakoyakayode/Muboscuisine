@@ -1,4 +1,4 @@
-export default [
+const SoupVarieties = [
     {
         image: "https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-d225bf7/images/Nigerian-Food-Egusi-Soup.jpg",
         title: "Egusi Soup",
@@ -50,3 +50,5 @@ export default [
 
 
 ]
+
+export default SoupVarieties;
