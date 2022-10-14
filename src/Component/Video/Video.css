@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 600px) {
     .video {
-        height: 60vh;
+        max-height: 55vh;
     }
 }
 

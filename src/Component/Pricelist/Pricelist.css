@@ -104,6 +104,9 @@
     .service-charge {
         margin-block: 10px;
         gap: auto;
+        
+    }
+    .service-charge h4 {
         font-size: 0.9rem;
     }
 }
@@ -112,6 +115,9 @@
     .service-charge {
         margin-block: 10px;
         gap: auto;
+    }
+
+    .service-charge h4 {
         font-size: 1rem;
     }
 }
@@ -120,6 +126,9 @@
     .service-charge {
         margin-block: 12px;
         gap: auto;
+    }
+
+    .service-charge h4 {
         font-size: 1.1rem;
     }
 }
