@@ -1,4 +1,4 @@
-export default [
+const Food = [
     {
         image: "https://nomadparadise.com/wp-content/uploads/2020/08/nigerian-food-09-1024x640.jpg.webp",
         title: "Asaro (Yam Porridge)",
@@ -97,3 +97,5 @@ export default [
     },
 
 ]
+
+export default Food
