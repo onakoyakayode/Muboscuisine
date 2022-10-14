@@ -15,6 +15,7 @@
 @media only screen and (max-width: 600px) {
     .client {
         padding: 50px 10px;
+        min-height: 50vh;
     }
 }
 
@@ -22,21 +23,21 @@
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     .client {
         padding: 70px 15px;
-        min-height: 20vh;
+        min-height: 50vh;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .client {
         padding: 80px 20px;
-        min-height: 40vh;
+        min-height: 60vh;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1800px) {
     .client {
         padding: 80px 20px;
-        min-height: 40vh;
+        min-height: 70vh;
     }
 }
 
